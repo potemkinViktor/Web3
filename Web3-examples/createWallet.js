@@ -6,7 +6,7 @@ const hre = require("hardhat");
 const { BigNumber, utils } = require("ethers");
 const hardhat = require("hardhat");
 
-const address = '';
+const address = process.env.ADDRESS;
 const privateKey = process.env.PRIVATE_KEY;
 const infuraUrl = process.env.MORALIS_URL; 
 
